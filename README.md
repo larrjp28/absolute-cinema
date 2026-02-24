@@ -1,25 +1,32 @@
 # AbsoluteCinema
 
-A movie discovery and tracking site built for people who actually care about film.
+A movie discovery and tracking site. Search for films, browse by genre, check ratings from multiple sources, watch trailers, and keep track of what you have seen, want to see, and love.
 
-Search any movie and get ratings from TMDB, IMDb, Rotten Tomatoes, and Metacritic all in one place. Watch trailers, browse by genre, explore cast and crew, and read audience reviews without bouncing between five different sites.
-
-You can save movies to a watchlist, mark what you've seen, and keep a favorites list — all stored locally in your browser, no account needed.
-
-## Features
+## What it does
 
 - Search with live autocomplete and recent search history
-- Ratings from TMDB, IMDb, Rotten Tomatoes, and Metacritic on every movie page
-- Trailers embedded directly, no redirects
-- Full cast and crew with actor filmographies
-- Browse and filter by genre with 11 sort options
-- Watchlist, favorites, and watched list — no login required
-- Dark mode only, fully responsive on mobile and desktop
+- Browse and filter by genre with multiple sort options
+- Movie pages with cast, trailer, reviews, box office, and ratings from TMDB, IMDB, Rotten Tomatoes, and Metacritic
+- Add movies to Favorites, Watchlist, or Watched — stored locally in the browser
+- Actor and director pages with filmography
+- Fully dark, mobile-responsive design
 
-## Stack
+## Built with
 
-Next.js 14, TypeScript, Tailwind CSS, TMDB API, OMDb API
+Next.js 14, TypeScript, Tailwind CSS — data from the TMDB and OMDb APIs.
 
-## Credits
+## API Keys
 
-Built by [larrjp28](https://github.com/larrjp28) and [httpsdave](https://github.com/httpsdave)
+Create a `.env.local` file in the project root:
+
+```
+NEXT_PUBLIC_TMDB_API_KEY=your_tmdb_key
+NEXT_PUBLIC_OMDB_API_KEY=your_omdb_key
+```
+
+Get a free TMDB key at https://www.themoviedb.org/settings/api and OMDb key at https://www.omdbapi.com/apikey.aspx.
+
+## Built by
+
+- [larrjp28](https://github.com/larrjp28) — Lead Developer
+- [httpsdave](https://github.com/httpsdave)
