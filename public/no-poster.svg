@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 300" fill="none">
+  <rect width="200" height="300" rx="8" fill="#151D2E"/>
+  <path d="M70 130 L100 110 L130 130 L130 170 L100 190 L70 170Z" stroke="#1E293B" stroke-width="2" fill="none"/>
+  <text x="100" y="155" text-anchor="middle" fill="#64748B" font-family="system-ui" font-size="14">No Poster</text>
+</svg>
